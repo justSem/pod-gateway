@@ -4,8 +4,8 @@
     "github>angelnu/renovate-config:automerge-github-actions",
   ],  
   platform:     "github",
-  username:     "angelnu-bot[bot]",
-  gitAuthor:    "angelnu-bot[bot] <115925344+angelnu-bot[bot]@users.noreply.github.com>",  
-  repositories: ["angelnu/pod-gateway"],
+  username:     "consuela-bot[bot]",
+  gitAuthor:    "consuela-bot[bot] <289644+consuela-bot[bot]@users.noreply.github.com>",  
+  repositories: ["justSem/pod-gateway"],
   renovateFork: true,
 }
