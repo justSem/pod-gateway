@@ -15,7 +15,7 @@ on:
   - cron: "0 0 * * 6"
 
 env:
-  REGISTRY_IMAGE: ghcr.io/${{ github.repository }}
+  REGISTRY_IMAGE: ghcr.io/justsem/pod-gateway
 
 jobs:
   build:
