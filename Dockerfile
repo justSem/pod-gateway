@@ -13,6 +13,7 @@ RUN apk add --no-cache coreutils dnsmasq-dnssec iproute2 bind-tools dhclient bas
 COPY config /default_config
 COPY config /config
 COPY bin /bin
+COPY dnsmasq.conf /etc/dnsmasq.conf
 CMD [ "/bin/entry.sh" ]
 
 ARG IMAGE_SOURCE
