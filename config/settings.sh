@@ -45,3 +45,9 @@ GATEWAY_ENABLE_DNSSEC=true
 
 # If you use nftables for iptables you need to set this to yes
 IPTABLES_NFT=no
+
+# Set to WAN/VPN IP to enable SNAT instead of Masquerading
+SNAT_IP=""
+
+# Set the VPN MTU. It also adjust the VXLAN MTU to avoid fragmenting the package in the gateway (VXLAN-> MTU)
+VPN_INTERFACE_MTU=""
